@@ -1,0 +1,10 @@
+# PRACTICO 80
+
+# USA LA FUNCION INSERT INTO Y AGREGA UN REGISTRO A LA TABLA CATEGORY
+
+SELECT * FROM sakila.category;
+
+INSERT INTO sakila.category(name)
+VALUES('Belica');
+SELECT * FROM sakila.category;
+

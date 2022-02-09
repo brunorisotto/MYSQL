@@ -1,0 +1,9 @@
+# PRACTICO 79
+
+# USA LA FUNCION INSERT INTO Y AGREGA UN REGISTO A LA TABLA ACTOR DE BASE DE DATOS SAKILA
+
+SELECT * FROM sakila.actor;
+
+INSERT INTO sakila.actor(first_name,last_name)
+VALUES ('Will','Smith');
+SELECT * FROM sakila.actor;
